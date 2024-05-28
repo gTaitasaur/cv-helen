@@ -1,0 +1,42 @@
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  margin: 50px;
+  display: grid;
+  padding: 30px;
+}
+body {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.btn-personalizado {
+  background-color: rgb(221, 93, 46);
+  border-color: rgb(221, 93, 46);
+  color: white;
+}
+img.rounded-circle {
+  width: 200px;
+  height: 200px;
+}
+
+.badge {
+  font-size: 14px;
+  background-color: rgb(221, 93, 46);
+}
+.section-left {
+  position: relative;
+  background-color: #6b9999;
+  color: #ffffff;
+  padding: 20px;
+  padding-top: 50px;
+}
+.section {
+  position: relative;
+  background-color: #ebc9bb;
+  padding: 50px;
+}

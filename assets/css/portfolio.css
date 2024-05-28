@@ -1,0 +1,68 @@
+.btn-personalizado {
+  background-color: rgb(221, 93, 46);
+  border-color: rgb(221, 93, 46);
+  color: white;
+}
+.navbar-brand.fw-bold {
+  color: rgb(221, 93, 46);
+}
+.title-color {
+  color: rgb(221, 93, 46);
+}
+h1 {
+  color: rgb(221, 93, 46);
+  padding: 20px;
+}
+.background-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/background1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.text-over-image.about {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.text-over-image {
+  position: absolute;
+  top: 40%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  border: 0cap;
+}
+.circular-image {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  position: absolute;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 2px solid white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.container {
+  width: 100%;
+  max-width: 100vw;
+}
+.image-column {
+  width: 400px;
+}
+.style-font {
+  font-optical-sizing: auto;
+  color: white;
+  font-weight: 100;
+  font-style: normal;
+}
